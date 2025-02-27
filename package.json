@@ -3,6 +3,8 @@
   "displayName": "JSSP",
   "description": "Syntax highlighting support for JSSP (JavaScript Server Pages)",
   "version": "0.0.1",
+  "publisher": "CTRL",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.97.0"
   },
