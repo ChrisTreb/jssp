@@ -1,0 +1,20 @@
+{
+    "JSSP For Loop": {
+        "prefix": "forjssp",
+        "body": [
+            "<% for (let ${1:i} = 0; ${1:i} < ${2:10}; ${1:i}++) { %>",
+            "  ${3:// code here}",
+            "<% } %>"
+        ],
+        "description": "Boucle for en JSSP"
+    },
+    "JSSP If Statement": {
+        "prefix": "ifjssp",
+        "body": [
+            "<% if (${1:condition}) { %>",
+            "  ${2:// code here}",
+            "<% } %>"
+        ],
+        "description": "Condition if en JSSP"
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"scopeName": "source.jssp",
+	"patterns": [
+		{
+			"begin": "<%",
+			"end": "%>",
+			"name": "embedded.javascript",
+			"patterns": [
+				{
+					"include": "source.js"
+				}
+			]
+		},
+		{
+			"include": "text.html.basic"
+		}
+	],
+	"repository": {}
+}

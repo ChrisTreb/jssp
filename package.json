@@ -1,0 +1,40 @@
+{
+  "name": "jssp",
+  "displayName": "JSSP",
+  "description": "Syntax highlighting support for JSSP (JavaScript Server Pages)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "jssp",
+        "aliases": [
+          "JSSP",
+          "jssp"
+        ],
+        "extensions": [
+          ".jssp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jssp",
+        "scopeName": "source.jssp",
+        "path": "./syntaxes/jssp.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "jssp",
+        "path": "./snippets/jssp.json"
+      }
+    ]
+  }
+}
