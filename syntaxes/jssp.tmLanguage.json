@@ -12,6 +12,26 @@
 			]
 		},
 		{
+			"begin": "<script>",
+			"end": "</script>",
+			"name": "embedded.javascript",
+			"patterns": [
+				{
+					"include": "source.js"
+				}
+			]
+		},
+		{
+			"begin": "<style>",
+			"end": "</style>",
+			"name": "embedded.css",
+			"patterns": [
+				{
+					"include": "source.css"
+				}
+			]
+		},
+		{
 			"include": "text.html.basic"
 		}
 	],
