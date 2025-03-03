@@ -8,6 +8,15 @@
         ],
         "description": "Boucle for en JSSP"
     },
+    "JSSP For Each Loop with Custom Function": {
+        "prefix": "foreachfuncjssp",
+        "body": [
+        "<% for each (var ${1:item} in ${2:data}) { %>",
+        "  ${3:functionName(${1:item});}",
+        "<% } %>"
+        ],
+        "description": "JSSP For Each Loop with Custom Function"
+    },
     "JSSP If Statement": {
         "prefix": "ifjssp",
         "body": [
