@@ -4,8 +4,18 @@
 		{
 			"begin": "<%",
 			"end": "%>",
-			"name": "embedded.javascript",
+			"name": "'meta.scriptlet.jssp",
 			"patterns": [
+				{
+					"begin": "(<%)",
+					"end": "(%>)",
+					"name": "invalid.nested.block.jssp",
+					"captures": {
+						"0": {
+							"name": "invalid.nested.block.jssp"
+						}
+					}
+				},
 				{
 					"include": "source.js"
 				}

@@ -12,10 +12,10 @@
         "prefix": "foreachfuncjssp",
         "body": [
         "<% for each (var ${1:item} in ${2:data}) { %>",
-        "  ${3:functionName(${1:item});}",
+        "  <div>${1:item}</div>",
         "<% } %>"
         ],
-        "description": "JSSP For Each Loop with Custom Function"
+        "description": "Boucle for each en JSS"
     },
     "JSSP If Statement": {
         "prefix": "ifjssp",
@@ -25,5 +25,12 @@
             "<% } %>"
         ],
         "description": "Condition if en JSSP"
+    },
+    "JSSP use variable": {
+        "prefix": "varjssp",
+        "body": [
+            "<%= ${1:foo} %>"
+        ],
+        "description": "Utiliser une variable en JSSP"
     }
 }
